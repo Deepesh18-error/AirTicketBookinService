@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 
 const app = express();
 
-const {PORT} = require('./config/serverconfig');
+const {PORT , FLIGHT_SERVICE_PATH} = require('./config/serverconfig');
 const apiRoutes = require('./routes/index');
 const db = require('./models/index');
 
